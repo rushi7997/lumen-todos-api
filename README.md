@@ -1,24 +1,22 @@
-# Lumen PHP Framework
+# Todo API made with Lumen framework
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+I haven't used lumen in a long time so this was a really nice refreshment.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+to get started you can use the following commands:
 
-## Official Documentation
+```bash
+php artisan migrate
+```
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+and then you can use the following commands:
 
-## Contributing
+```bash
+php -S localhost:8000 -t public
+```
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+The Postman Collection to test todo-api [here](https://www.getpostman.com/collections/ff78c6c51059d3e58b0f).
 
-## Security Vulnerabilities
+There are few things that I would personally improve on this app
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. I would make authentication a bit more secure.
+2. I would make test cases more thorough.
